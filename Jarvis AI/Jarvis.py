@@ -1,12 +1,13 @@
-#imp go on terminal (python -m venv venv)
-import pyttsx3 #pip install pyttsx3
-import speech_recognition as sr #pip install speechRecognition
+
+import pyttsx3 
+import speech_recognition as sr 
 import datetime
-import wikipedia #pip install wikipedia
+import wikipedia 
 import webbrowser
 import os
 import smtplib
 import random
+# do not forget to install pyaudio
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
